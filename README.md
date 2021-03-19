@@ -16,3 +16,15 @@ pseudocoding - writing out the logic prior to actually coding it out
     Nav bar always stick to the top
     -> position: fixed, absolute? google - Sticky?
     
+
+
+
+    About Me
+    -> Image of me
+    -> Brief description
+
+    Contact Me
+    -> Include an input field for name, email etc
+
+    Work
+    -> 
