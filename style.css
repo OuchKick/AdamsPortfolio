@@ -61,11 +61,13 @@ img{
 /* About Me & Work CSS for Bold Text */
 
   section h1 {
- font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 65px;
-  display: flex;
+  font-size: 56px;
   margin-left: 30px;
   margin-right: 5px steelblue;
+  line-height: 1.1;
+  font-weight: 600;
+  letter-spacing: -.09em;
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 
   }
 
@@ -142,6 +144,12 @@ footer {
     color: skyblue;
 }
 
-
+.badge-item .badge-value {
+    font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -.005em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
 
 
