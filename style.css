@@ -9,11 +9,13 @@ min-width: 300px;
 
 }
 
+/* Main header color */
 header {
   background-color: rgb(48, 47, 47);
   height: 4.7em;
   }
   
+  /* Box with name */
   header h1 {
       width: 250px;
       top: 10px;
@@ -41,6 +43,23 @@ header {
     padding-right: 1%;
   }
 
+/* Image above About Me */
+figure {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+img{
+    display: flex;
+    width: 10%;
+    justify-content: stretch;
+    
+}
+
+
+/* About Me & Work CSS for Bold Text */
+
   section h1 {
  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 65px;
@@ -50,10 +69,18 @@ header {
 
   }
 
+/* About Me paragraph text */
+  #me {
+    display: flex;
+    justify-content: center;
+
+
+  }
+
   
 
 
-
+/* Examples of Work */
 
   div p:nth-of-type(1) {
 
@@ -83,7 +110,7 @@ header {
 }
 
  
-
+/* Contact me Text */
 article ul {
     display: flex;
     justify-content: space-evenly;
@@ -95,7 +122,7 @@ article ul {
 
 
 
-
+/* Bar infront of Contact me */
 article .vertical { 
     border-left: 2px solid black; 
     height: 30px; 
@@ -105,7 +132,7 @@ article .vertical {
 
 
 
-
+/* Footer and bottom of page styling */
 footer {
     background-color: rgb(48, 47, 47);
     padding: 2%;
