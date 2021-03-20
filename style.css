@@ -31,6 +31,7 @@ header {
 
  
 /* Navigation Bar - font on the upper right side of website. */
+
   header nav ul {
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: flex;
@@ -39,23 +40,25 @@ header {
     min-width: 300px;
     color: skyblue;
     text-decoration: underline skyblue;
+    text-underline-position: under;
+    border-width: 0 0 1px;
     float: right;
     padding-right: 1%;
   }
 
-/* Image above About Me */
-figure {
-    display: flex;
-    flex-wrap: wrap;
-    
-}
+  a:visited {
+    text-decoration: none;
+    color: skyblue
+  }
 
-img{
-    display: flex;
-    width: 10%;
-    justify-content: stretch;
-    
-}
+
+/* Image above About Me */
+ img {
+    max-width: 100%;
+    height: 100px;
+    object-fit: cover;
+    width: fit-content;
+ }
 
 
 /* About Me & Work CSS for Bold Text */
@@ -63,7 +66,6 @@ img{
   section h1 {
   font-size: 56px;
   margin-left: 30px;
-  margin-right: 5px steelblue;
   line-height: 1.1;
   font-weight: 600;
   letter-spacing: -.09em;
@@ -84,30 +86,52 @@ img{
 
 /* Examples of Work */
 
+
   div p:nth-of-type(1) {
-
-
+    display: flex;
+    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
   }
-
+/* 
   div p:nth-of-type(2) {
+    display: flex;
+    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
 
 
 }
 
   div p:nth-of-type(3) {
+    display: flex;
+    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
 
 
 }
 
   div p:nth-of-type(4) {
-
-
+    display: flex;
+    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
 }
 
   div p:nth-of-type(5) {
+    display: flex;
+    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    margin-bottom: 100px;
 
-      margin-bottom: 100px;
 
+} */
+
+aside p {
+display: flex;
+flex-direction: column;
 
 }
 
@@ -129,7 +153,7 @@ article .vertical {
     border-left: 2px solid black; 
     height: 30px; 
     position: absolute; 
-    left: 15%; 
+    left: 17%; 
 } 
 
 
@@ -144,5 +168,63 @@ footer {
     color: skyblue;
 }
 
+  article {
+  font-size: 56px;
+  margin-left: 30px;
+  line-height: 1.1;
+  font-weight: 600;
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+article :visited {
+  text-decoration: none;
+  color: black;
+}
 
 
+
+@media screen and (max-width: 1300px) { 
+
+  article .vertical { 
+  border-left: none;
+}
+
+}
+
+@media screen and (max-width: 1060px) {
+
+  article li {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  @media screen and (max-width: 996px) {
+
+    article li {
+      display: flex;
+      justify-content: space-evenly;
+    }
+    header, body {
+      flex-direction: column;
+    }
+  
+    section {
+      padding-right: 0;
+    }
+  
+}}
+
+@media screen and (max-width: 768px) {
+  header, body {
+    flex-direction: column;
+  }
+
+  section {
+    padding-right: 0;
+  }
+
+  article li {
+    width: 100%;
+    text-align: center;
+  }
+}
