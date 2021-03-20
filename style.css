@@ -5,7 +5,7 @@
 body {
 background-color:white;
 position: relative;
-min-width: 300px;
+min-width: 320px;
 
 }
 
@@ -13,24 +13,13 @@ min-width: 300px;
 header {
   background-color: rgb(48, 47, 47);
   height: 4.7em;
+  object-fit: cover;
+  width: 100%;
   }
   
   /* Box with name */
-  /* header h1 {
-      width: 250px;
-      top: 10px;
-      position: relative;
-      background-color: skyblue;
-      text-align: right;
-      padding-right: 20px;
-      height: 1.5em;
-      font-size: 40px;
-      font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-  } */
-
-
   header h1 {
-    width: 200px;
+    width: 250px;
     top: 10px;
     position: relative;
     background-color: skyblue;
@@ -72,28 +61,72 @@ header {
     max-width: 100%;
     height: 180px;
     object-fit: cover;
-    width: fit-content;
+    width: 100%;
  }
 
 
 /* About Me & Work CSS for Bold Text */
 
-  section h1 {
-  font-size: 50px;
-  margin-left: 30px;
-  line-height: 1.1;
-  font-weight: 600;
-  letter-spacing: -.09em;
-  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-
-  }
-
+  .About h1 {
+    display: inline;
+    vertical-align: top;
+    padding-right: 30px;
+    text-align-last: right;
+    font-size: 50px;
+    margin-left: 30px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: -.09em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    float: left;
+    }
+    
 /* About Me paragraph text */
-  #me {
-    padding-left: 15em;
+
+    .About p {
+    display: inline;
+    vertical-align: top;
+    font-size: 25px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    max-width: fit-content;
+    padding-left: 5em;
+
+    }
+
+
+/* Work Bold Font */
+
+  .Work h1 {
+    display: inline;
+    font-size: 50px;
+    margin-left: 30px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: -.09em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
   }
+
+
+   /* Work Section - holding all examples of work */
+  div.Box {
+    display: inline;
+    vertical-align: top;
+    font-size: 25px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    object-fit: cover;
+    width: 100%;
+
+  } 
 
   
+.Box {
+  width: 100%;
+	padding-bottom: 6%; /* 16:9 */
+	position: relative;
+	background: white;
+  display: inline;
+}
+
 
 
 /* Examples of Work */
@@ -102,7 +135,9 @@ header {
   gap: 1rem;
   grid-auto-flow: column;
   margin: 0 0 1rem 0;
-  padding-left: 15em;
+  padding-left: 12em;
+  padding-right: 1em;
+  
 }
 
 .pre > div {
@@ -112,41 +147,67 @@ header {
 
 }
 
+
 .preA {
   display: grid;
   gap: 1rem;
   grid-auto-flow: column;
   margin: 0 0 1rem 0;
-  padding-left: 15em;
+  padding-left: 12em;
+  padding-right: 1em;
 }
 
 .preA > div {
   height: 400px;
   background: red;
   min-width: 10px;
+  
 
 }
 
 /* Contact me Text */
-article ul {
-    display: flex;
-    justify-content: space-evenly;
-    font-size: 24px;
-    text-decoration: none;
-    flex-wrap: wrap;
-    
+article h1 {
+  margin-left: 30px;
+  line-height: 1.1;
+  font-weight: 600;
+  letter-spacing: -.09em;
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  
+
+}
+
+/* Bar infront of Contact me */
+
+
+article {
+  font-size: 56px;
+  line-height: 1.1;
+  font-weight: 600;
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+
 }
 
 
 
-/* Bar infront of Contact me */
-article .vertical { 
-    border-left: 2px solid black; 
-    height: 30px; 
-    position: absolute; 
-    left: 17%; 
-} 
+.Contact h1 {
+display: inline;
+padding-right: 30px;
+text-align: right;
 
+}
+
+.Contact p {
+display: inline;
+font-size: 24px;
+padding-left: 4em;
+text-decoration: underline skyblue;
+
+}
+
+article :visited {
+  text-decoration: underline skyblue;
+  color: black;
+}
 
 
 /* Footer and bottom of page styling */
@@ -159,63 +220,27 @@ footer {
     color: skyblue;
 }
 
-  article {
-  font-size: 56px;
-  margin-left: 30px;
-  line-height: 1.1;
-  font-weight: 600;
-  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-}
-
-article :visited {
-  text-decoration: none;
-  color: black;
+footer p {
+  padding-left: 15em;
 }
 
 
 
-@media screen and (max-width: 1300px) { 
 
-  article .vertical { 
-  border-left: none;
-}
+  @media only screen and (max-width: 1200px) {
 
-}
-
-@media screen and (max-width: 1060px) {
-
-  article li {
-    display: flex;
-    justify-content: space-evenly;
-  }
-
-  @media screen and (max-width: 996px) {
-
-    article li {
-      display: flex;
-      justify-content: space-evenly;
-    }
-    header, body {
-      flex-direction: column;
-    }
   
-    section {
-      padding-right: 0;
-    }
-  
-}}
+}
 
-@media screen and (max-width: 768px) {
-  header, body {
-    flex-direction: column;
-  }
 
-  section {
-    padding-right: 0;
-  }
+  @media only screen and (max-width: 768px) {
 
-  article li {
-    width: 100%;
-    text-align: center;
-  }
+
+}
+
+
+
+  @media only screen and (max-width: 320px) {
+
+    
 }
