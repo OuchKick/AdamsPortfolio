@@ -252,7 +252,7 @@ section .preA img {
 
 }
 
-/*  Text on Images */
+/*  Text on Images with links */
 
 h2 {
  position: absolute;
@@ -260,9 +260,12 @@ top: 11em;
 background-color: skyblue;
 left: 6.7em;
 font-size: 25px;
-width: 100px;
+width: 126px;
+text-align: right;
 
 }
+
+
 
 span {
 font-weight: 400px;
@@ -274,33 +277,16 @@ font-size: 60%;
 
 
 /* Contact me Text */
-article h1 {
-  margin-left: 30px;
-  line-height: 1.1;
-  font-weight: 600;
-  letter-spacing: -.09em;
 
-  
-
-}
-
-
-
-
-article {
-  font-size: 56px;
-  line-height: 1.1;
-  font-weight: 600;
-  
-
-}
-
-
-
-.Contact h1 {
+#ContactMe{
 display: inline;
 padding-right: 30px;
 text-align: right;
+margin-left: 30px;
+font-size: 56px;
+line-height: 1.1;
+font-weight: 600;
+letter-spacing: -.09em;
 
 }
 
@@ -335,12 +321,12 @@ footer p {
 
 
 
-  @media only screen and (max-width: 1200px) {
+  /* @media only screen and (max-width: 1200px) {
     
     
 
   
-}
+} */
 
 
   @media only screen and (max-width: 768px) {
@@ -364,6 +350,63 @@ footer p {
       transition-duration: 2s;
     }
 
+    .About h1 {
+      display: inline;
+      padding-right: 30px;
+      font-size: 41px;
+      margin-left: 30px;
+      line-height: 1.1;
+      font-weight: 600;
+      letter-spacing: -.09em;
+      float: left;
+      transition-duration: 2s;
+    }
+
+    #ContactMe {
+      display: inline;
+      padding-right: 30px;
+      text-align: right;
+      margin-left: 30px;
+      font-size: 41px;
+      line-height: 1.1;
+      font-weight: 600;
+      letter-spacing: -.09em;
+      transition-duration: 2s;
+
+    }
+
+    .Contact p {
+  display: flex;
+  justify-content: center;
+  transition-duration: 2s;
+
+    }
+
+    .pre {
+      padding-left: 10em;
+      transition-duration: 2s;
+    }
+
+    .Pre1 {
+       padding-left: 10em;
+       transition-duration: 2s;
+
+    }
+
+    h2 {
+       left: 119px;
+       transition-duration: 2s;
+       
+
+    }
+
+    footer p {
+      padding-left: 6em;
+
+    }
+    
+    
+    
 
 }
 
@@ -376,6 +419,7 @@ footer p {
       justify-content: space-between;
       top: 15px;
       padding-right: 5px;
+      transition-duration: 2s;
     }
 
     figure img {
@@ -383,6 +427,7 @@ footer p {
       height: 80px;
       object-fit: cover;
       width: 100%;
+      transition-duration: 2s;
    }
 
      figure h1 {
@@ -392,6 +437,7 @@ footer p {
       width: fit-content;
       left: 41px;
       top: 138px;
+      transition-duration: 2s;
       
 
     } 
@@ -400,6 +446,21 @@ footer p {
       font-size: 6vw;
 
     }
+
+    .Contact p {
+
+      display: flex;
+      justify-content: center;
+      padding-left: 234px;
+      transition-duration: 2s;
+
+    
+        }
+
+        footer p {
+          padding-left: 3em;
+    
+        }
 
 
 
