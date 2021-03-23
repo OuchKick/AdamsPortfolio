@@ -1,5 +1,5 @@
-* {
-    font-family: fantasy;
+:root {
+    font-family:"SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
 body {
@@ -29,7 +29,7 @@ header {
     height: 1.25em;
     font-size: 30px;
     font-weight: 600;
-    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    
 }
 
 
@@ -40,7 +40,6 @@ header {
 
   header nav ul {
     position: relative;
-    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     display: flex;
     font-size: 16px;
     justify-content: space-between;
@@ -81,7 +80,6 @@ header {
     line-height: 1.1;
     font-weight: 600;
     letter-spacing: -.09em;
-    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     float: left;
     }
 
@@ -93,7 +91,6 @@ header {
     display: inline;
     vertical-align: top;
     font-size: 24px;
-    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     max-width: fit-content;
     padding-left: 1.9em;
     display: flex;
@@ -112,7 +109,7 @@ header {
     line-height: 1.1;
     font-weight: 600;
     letter-spacing: -.09em;
-    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+   
   }
 
 
@@ -121,7 +118,7 @@ header {
     display: inline;
     vertical-align: top;
     font-size: 25px;
-    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    
     object-fit: cover;
     width: 100%;
 
@@ -164,6 +161,14 @@ header {
 
 }
 
+
+/* Blur */
+.Pre1 a{
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+
+
 .Pre2 a{
   filter: blur(2px);
   -webkit-filter: blur(2px);
@@ -193,32 +198,6 @@ header {
 
 }
 
-.Pre2 a:hover{
-  filter: blur(0px);
-  -webkit-filter: blur(0px);
-}
-
-.Pre3 a:hover{
-  filter: blur(0px);
-  -webkit-filter: blur(0px);
-}
-
-.Pre4 a:hover{
-  filter: blur(0px);
-  -webkit-filter: blur(0px);
-}
-
-.Pre5 a:hover{
-  filter: blur(0px);
-  -webkit-filter: blur(0px);
-}
-
-
-
-.Pre1 a{
-  filter: blur(2px);
-  -webkit-filter: blur(2px);
-}
 
 .Pre1 {
   background-position: center;
@@ -235,6 +214,8 @@ header {
   min-width: 10px;
 
 }
+
+/* No Blur */
 
 .Pre1 a:hover{
   filter: blur(0px);
@@ -271,6 +252,23 @@ section .preA img {
 
 }
 
+/*  Text on Images */
+
+h2 {
+ position: absolute;
+top: 11em;
+background-color: skyblue;
+left: 6.7em;
+font-size: 25px;
+width: 100px;
+
+}
+
+span {
+font-weight: 400px;
+font-size: 60%;
+
+}
 
 
 
@@ -281,7 +279,7 @@ article h1 {
   line-height: 1.1;
   font-weight: 600;
   letter-spacing: -.09em;
-  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+
   
 
 }
@@ -293,7 +291,7 @@ article {
   font-size: 56px;
   line-height: 1.1;
   font-weight: 600;
-  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  
 
 }
 
