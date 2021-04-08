@@ -14,16 +14,6 @@ https://ouchkick.github.io/AdamsPortfolio/
 
 # Brief Preview
 
-Here are a few things that I've done with the website!
-
-![Alt Text](https://im6.ezgif.com/tmp/ezgif-6-fdc4d21e4493.gif)
-```bash
-Added the Blur effect to different image boxes.
-```
-
-
-
-
 ![image](https://user-images.githubusercontent.com/79331471/112220814-ac10df00-8bf4-11eb-8e1c-3c58a8e19ee9.png)
 
 ```bash
