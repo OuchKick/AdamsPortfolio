@@ -1,28 +1,30 @@
 
+<p align='center'>
+<img src='https://user-images.githubusercontent.com/79331471/117556898-6472d500-b033-11eb-9a5f-7a4bf91b4eed.png'/>
+</p>
 
-# Adam's Portfolio
+<p align='center'> Click <a href="https://ouchkick.github.io/AdamsPortfolio/">here</a> to view!</p>
+<br>
 
-```bash
-This is my portfolio as of 3/23/2021. It will continue to be updated as I progress with my assignments!
+<h1 align='center'>Hello!</h1>
 
-```
-# Live Site
-
-```bash
-https://ouchkick.github.io/AdamsPortfolio/
-```
-
-# Brief Preview
-
-![image](https://user-images.githubusercontent.com/79331471/112220814-ac10df00-8bf4-11eb-8e1c-3c58a8e19ee9.png)
-
-```bash
-Clickable links that open new tabs.
-```
+<p align='center'>My name is Adam Reed and I'm currently enrolled in the UT Austin Coding Bootcamp!
+<br>
+<p align='center'>I'll continue to update my portfolio as I progress through the course.
+</p>
 
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Please make sure to update tests as appropriate.
+<br>
+
+
+
+
+
+<h1 align='center'>License</h1>
+<p align='center'>
+<a href="https://choosealicense.com/licenses/mit/">MIT</a>
+
+</p>
+
 
