@@ -30,6 +30,18 @@ header {
   z-index: 5
 }
 
+.circleBase {
+  border-radius: 50%;
+}
+
+.type3 {
+  width: 500px;
+  height: 500px;
+  background-image: url('https://user-images.githubusercontent.com/79331471/120931173-1d214800-c6b6-11eb-8b31-7745183c621d.png');
+  border: 10px solid black;
+  background-position: top;
+}
+
 /* Text Styling */
 .display-5 {
   display: flex;
