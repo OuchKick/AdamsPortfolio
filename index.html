@@ -38,40 +38,53 @@
   <!-- Particle.JS  / will probably be moved so it covers the entire body -->
 <div id="particles-js"></div>
   <header>
-    <div class="d-flex justify-content-center my-1">
-    <div class="circleBase type3"></div>
+    <div class="container">
+    <div class="row justify-content-between">
+    <div class="my-1 col-4">
+    <div class="circleBase type3">
+    </div>
   </div>
-  <div class='px-4 py-5 my-1 text-center' id='headerblock'>
-    <h1 class='display-5' id='About'>Hi, my name is Adam Reed.</h1>
-    <br>
-    <h2 class='display-7'>Front-End Web Developer leveraging customer service and finance background to create a more
-      engaging and friendly experience on the web.<br> <br>Recently earning a certificate in Full Stack Web Development 
-      from the University of Texas at Austin coding bootcamp, with newly developed skills in responsive web design; <br>
-      with each project to engage the audience for an enjoyable user experience.
-      <br>Ability to work independently and collaboratively to develop multiple projects that greatly increase 
-      understanding and interest in web development. <br>
-      Excited to leverage skills as part of a fast-paced, quality-driven field to build better experiences on the web.  </h2>
-      <br>
-      <div align='center'>
-        <img src="./images/ReactIMGPNG.png" height='50px'/>
-        <img src="./images/BootstrapIMGPNG.png" height='50px'/>
-        <img src="./images/CSSIMGPNG.png" height='50px'/>
-        <img src="./images/nodeJSIMGPNG.png" height='50px'/>
-        <img src="./images/JavascriptIMGPNG.png" height='50px'/>
-        <img src="./images/HTML5IMGPNG.png" height='50px'/>
-      </div>
+  <div class='px-4 py-4 my-1 text-center col-4' id='headerblock'>
+    <div class="card">
+    <h1 class='display-5' id='About'>Hello!</h1>
+    <h2 class='display-7 my-1'>
+      My name is Adam and I currently live in Bryan, TX. I'm a recent graduate from the 
+      University of Texas Full Stack Bootcamp. When I'm not job hunting, learning about three.js or messing around with 3D modeling,
+      you can find me rocking out to Afro Funk, taking pictures of trains or going down a YouTube rabbit hole. I'm also a keyboard fanatic.
+    </h2>
   </div>
+  </div>
+</div>
+</div>
   </header>
     <!-- Carousel -->
     <section>
-    <h1 id='Work' class ='text-center'>Work</h1>
+      <div class="d-flex justify-content-center">
+      <div class="col-5 bg-light">
+      <h1 class='display-5' id='About'>My Story</h1>
+      <h2 class='display-7 my-1'>
+       My introduction to design came from a rather interesting gaming era; Modern Warfare 2 trickshotting. 
+       While looking at graphic designers for groups, I was amazed that people my age were learning
+       3D modeling and using Photoshop and I wanted to do it as well. So I did. I familiarized myself with Cinema 4D, Photoshop and After Effects.
+       <br>
+       <br>
+       Fast forward to now, I had been involved in the stock industry for a couple years. February 2021, the great Texas blizzard has struck and I had time to reflect.
+       I was listening to an AM radio station while the electricity was out and heard, "do what you want to do and just try, don't live in fear." I took that as a sign. From then on, I've taken the same drive that I had as a kid to learn graphic design and pushed that into learning how to be an efficent web developer. 
+       <br>
+       <br>
+      I'm a self-starter and I love to learn new things. If anyone would like to work on fun projects, please reach out! 
+      </h2>
+    </div>
+  </div>
+    </section>
+    <section>
+    <h1 class='display-5 py-5' class ='text-center' id="Work">Work</h1>
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <!-- target="_blank" will force link in image to open new tab -->
-          <a href='https://github.com/Dylan-Casanova/PokeFyte-The-Game' target="_blank" class='pokefyte'>
           <img src="https://fontmeme.com/permalink/210509/11e21adbbf4cc1626f181a3f441c2837.png" class="d-block w-65" alt="Pokefyte"/>
-          </a>
+          
           <br>
           <div>
             <h5 class='workTitle display-6 '><a href='https://pokyfyte.herokuapp.com/' target="_blank">PokéFyte</a></h5>
@@ -87,9 +100,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <a href='https://github.com/pigodidog/Dalila' target="_blank">
           <img src='https://user-images.githubusercontent.com/79331471/119887115-56f59000-bef9-11eb-8b12-2281300c2d51.gif' class="d-block w-50" alt="Dalila"/>
-        </a>
         <br>
           <div>
             <h5 class='workTitle display-6'><a href='http://dalila-app.herokuapp.com/' target="_blank">Dalila</a></h5>
@@ -105,9 +116,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <a href='https://github.com/mattjb97/Tangible-Tunes' target="_blank">
           <img src="https://user-images.githubusercontent.com/79331471/114210906-a2da7e80-9925-11eb-8ec2-ab70f9904a71.png" class="d-block w-50" alt="TangibleTunes"/>
-         </a>
          <br>
           <div>
             <h5 class='workTitle display-6'><a href='https://mattjb97.github.io/Tangible-Tunes/' target="_blank" >Tangible Tunes</a></h5>
@@ -137,7 +146,14 @@
 
 
 
-
+    <div align='center'>
+      <img src="./images/ReactIMGPNG.png" height='50px'/>
+      <img src="./images/BootstrapIMGPNG.png" height='50px'/>
+      <img src="./images/CSSIMGPNG.png" height='50px'/>
+      <img src="./images/nodeJSIMGPNG.png" height='50px'/>
+      <img src="./images/JavascriptIMGPNG.png" height='50px'/>
+      <img src="./images/HTML5IMGPNG.png" height='50px'/>
+    </div>
   <!-- Footer with contact information -->
 <footer class='container-fluid navbar-dark bg-dark' id='Contact'>
 <div class='contactFooter'>
